@@ -1,0 +1,48 @@
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+
+
+body{
+    transition: 1s;
+}
+.box{
+img{
+    width: 50%;
+    border-radius: 20%;
+}
+}
+
+
+  .anim{
+animation: anim 5s infinite linear;
+}
+
+@keyframes anim {
+    0%{
+rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+.img{
+    display: block;
+
+}
+
+#box2 {
+    display: none;
+}
+
+.open{
+    display: block !important;
+}
+.close{
+    display: none !important;
+}
